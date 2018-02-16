@@ -19,11 +19,7 @@ function onClick() {
   updateLabel();
 }
 function inputsAreEmpty() {
-  if (getNumber1() === '' || getNumber2() === '') {
-    return true;
-  } else {
-    return false;
-  }
+  return getNumber1() === '' || getNumber2() === '';
 }
 function updateLabel() {
   var addend1 = getNumber1();
